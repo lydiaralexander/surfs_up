@@ -64,4 +64,10 @@ def precipitation():
 #create a dictionary with the date as the key and the precipitation as the value.
 #To do this, we will "jsonify" our dictionary. A function that converts the dictionary to a JSON file.
 
+@app.route("/api/v1.0/stations")
+
+def stations():
+    results = session.query(Station.station).all()
+    stations = list(np.ravel(results))
+    return jsonify(stations=stations)
 
