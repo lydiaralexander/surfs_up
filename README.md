@@ -5,7 +5,7 @@ W. Avy is eager to open his surf shop, but wants additional information about te
 W. Avy has asked for temperature data for June and December in Oahu(where he plans to open the surf shop) so that he can determine if the shop is sustainable year-round.
 
 ## Surfs Up Analysis - Results
-![](Images/June_Temps.png)    ![](Images/December_Temps.png)  
+![](images/June_Temps.png)         ![](images/December_Temps.png)  
 
 Reviewing the results, one will notice 3 key differences between the two months:
 * The minimum temperature for June is 64, while the minimum temperature for December is 56.
